@@ -16,3 +16,12 @@ java --version
 
 ![Java version](check_java_version.png)
 
+
+
+
+##
+## Features of Java 21
+
+All Features of Java 21 are available at [Open JDK 21 Features Link](https://openjdk.org/projects/jdk/21/)
+
+![jdk21-features](jdk21_features.png)
