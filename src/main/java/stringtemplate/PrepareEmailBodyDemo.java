@@ -1,5 +1,14 @@
 package src.main.java.stringtemplate;
 
+/**
+ * this program demonstrate String Template Feature of JDK 21 using code samples before and after
+ *
+ * <html>
+ *  <body><p> Welcome John to our planet.</p>
+ * </body>
+ * </html>
+ *
+ */
 public class PrepareEmailBodyDemo {
 
     public static void main(String[] args){
