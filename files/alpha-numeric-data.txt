@@ -1,0 +1,4 @@
+Here is one test case with double values
+123.00
+One more
+130.00
