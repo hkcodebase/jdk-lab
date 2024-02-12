@@ -1,4 +1,4 @@
-package src.main.java.io;
+package src.main.java.io.streams;
 
 import java.io.*;
 
@@ -12,7 +12,7 @@ public class ObjectStreamMain {
         ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream("files/objectOutput.txt"));
         Object dataClassReadObject1 =  objectInputStream.readObject();
         Object dataClassReadObject2 =  objectInputStream.readObject();
-        System.out.printf("is object from file instance of Dataclass %s",dataClassReadObject1 instanceof DataClass);
+        System.out.printf("is object from file instance of Dataclass %s%n",dataClassReadObject1 instanceof DataClass);
         System.out.printf("is two object created using read object are equal %s", dataClassReadObject2 == dataClassReadObject1);
     }
 

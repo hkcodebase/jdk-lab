@@ -1,4 +1,4 @@
-package src.main.java.io;
+package src.main.java.io.streams;
 
 import java.io.*;
 
